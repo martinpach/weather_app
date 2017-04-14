@@ -1,0 +1,62 @@
+body{
+	background-color: rgb(0, 26, 9);
+	font-family: 'Happy Monkey', cursive;
+}
+
+#content{
+	margin-top: 20vh;
+	min-height: 300px;
+	background-color: rgba(13, 13, 13, .3);
+	text-align: center;
+	color: white;
+}
+
+h1{
+	padding-top: 5%;
+}
+
+.weather-icon{
+	height: auto;
+	width: 130px;
+	padding-bottom: 50px;
+}
+
+#temperature{
+	font-size: 150px;
+	margin-top: -50px;
+}
+
+#city{
+	display: inline-block;
+	font-size: 85px;
+}
+
+#details{
+	font-size: 40px;
+	background-color: rgba(13, 13, 13, .5);
+	margin-bottom : 0;
+}
+
+#details:hover{
+	cursor: pointer;
+}
+
+#details-wrapper{
+	display: none;
+	background-color: rgba(13, 13, 13, .4);
+	font-size: 20px;
+}
+
+#current-information{
+	min-height: 400px;
+}
+
+@media screen and (max-width: 555px){
+	#city{
+		font-size: 50px;
+	}
+
+	#temperature{
+		font-size: 90px;
+	}
+}
